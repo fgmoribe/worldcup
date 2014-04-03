@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140403144908) do
+ActiveRecord::Schema.define(version: 20140403192306) do
 
   create_table "games", force: true do |t|
     t.integer  "goals1"
@@ -23,7 +23,17 @@ ActiveRecord::Schema.define(version: 20140403144908) do
     t.string   "date"
     t.string   "time"
     t.integer  "venue_id"
+    t.integer  "group_id"
   end
+
+  create_table "groups", force: true do |t|
+    t.integer  "group_number"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "groups", ["group_number"], name: "index_groups_on_group_number"
 
   create_table "teams", force: true do |t|
     t.string   "name"
@@ -31,6 +41,7 @@ ActiveRecord::Schema.define(version: 20140403144908) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "portuguese_name"
+    t.integer  "group_id"
   end
 
   create_table "venues", force: true do |t|
