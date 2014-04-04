@@ -33,7 +33,7 @@ class Api::V1::GamesController < ApplicationController
 	  	when 'Final'
 	  		@games = Game.where(group: Group.find_by_group_number(13)).order(:game_number)
 	  	else
-	  		@games = nil
+	  		render :json => { :error => 'not acceptable parameter' }, :status => 406
 	  	end
   	else
   		@games = Game.all.order(:game_number)
