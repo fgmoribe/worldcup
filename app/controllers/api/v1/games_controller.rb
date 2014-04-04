@@ -22,6 +22,16 @@ class Api::V1::GamesController < ApplicationController
 	  		@games = Game.where(group: Group.find_by_name('G')).order(:game_number)
 	  	when 'H'
 	  		@games = Game.where(group: Group.find_by_name('H')).order(:game_number)
+	  	when 'Round16'
+	  		@games = Game.where(group: Group.find_by_group_number(9)).order(:game_number)
+	  	when 'Quarter'
+	  		@games = Game.where(group: Group.find_by_group_number(10)).order(:game_number)
+	  	when 'Semi'
+	  		@games = Game.where(group: Group.find_by_group_number(11)).order(:game_number)
+	  	when 'Playoff'
+	  		@games = Game.where(group: Group.find_by_group_number(12)).order(:game_number)
+	  	when 'Final'
+	  		@games = Game.where(group: Group.find_by_group_number(13)).order(:game_number)
 	  	else
 	  		@games = nil
 	  	end
