@@ -26,7 +26,7 @@ class Api::V1::GamesController < ApplicationController
 	  		@games = nil
 	  	end
   	else
-  		@games = Game.all
+  		@games = Game.all.order(:game_number)
   	end
   end
 
