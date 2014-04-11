@@ -103,12 +103,17 @@ game1.update(goals1: 1, goals2: 2)
 game2.update(goals1: 2, goals2: 0)
 
 ##### GAMES - GROUP B
-Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
-Game.create(game_number: 4, team1: chile, team2: australia, venue:cuiaba, date: '13/06', time:'18:00', group: groupB)
+game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
+game4 = Game.create(game_number: 4, team1: chile, team2: australia, venue:cuiaba, date: '13/06', time:'18:00', group: groupB)
 Game.create(game_number: 19, team1: spain, team2: chile, venue:rio, date: '18/06', time:'16:00', group: groupB)
-Game.create(game_number: 20, team1: australia, team2: australia, venue:poa, date: '18/06', time:'13:00', group: groupB)
+Game.create(game_number: 20, team1: australia, team2: netherlands, venue:poa, date: '18/06', time:'13:00', group: groupB)
 Game.create(game_number: 35, team1: australia, team2: spain, venue:curitiba, date: '23/06', time:'13:00', group: groupB)
 Game.create(game_number: 36, team1: netherlands, team2: chile, venue:sp, date: '23/06', time:'13:00', group: groupB)
+
+##teste API
+game3.update(goals1: 3, goals2: 0)
+game4.update(goals1: 2, goals2: 2)
+
 
 ##### GAMES - GROUP C
 Game.create(game_number: 5, 
