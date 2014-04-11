@@ -91,12 +91,15 @@ bh = Venue.create(venue_number: 12, name: 'Belo Horizonte')
 
 
 ##### GAMES - GROUP A
-Game.create(game_number: 1, team1: brazil, team2: croatia, venue:sp, date: '12/06', time:'17:00', group: groupA)
+game1 = Game.create(game_number: 1, team1: brazil, team2: croatia, venue:sp, date: '12/06', time:'17:00', group: groupA)
 Game.create(game_number: 2, team1: mexico, team2: cameroon, venue:natal, date: '13/06', time:'13:00', group: groupA)
 Game.create(game_number: 17, team1: brazil, team2: mexico, venue:fortaleza, date: '17/06', time:'16:00', group: groupA)
 Game.create(game_number: 18, team1: cameroon, team2: croatia, venue:manaus, date: '18/06', time:'18:00', group: groupA)
 Game.create(game_number: 33, team1: cameroon, team2: brazil, venue:brasilia, date: '23/06', time:'17:00', group: groupA)
 Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: '23/06', time:'17:00', group: groupA)
+
+##teste API
+game1.update(goals1: 1, goals2: 2)
 
 ##### GAMES - GROUP B
 Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
