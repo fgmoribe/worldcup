@@ -130,6 +130,7 @@ Game.create(game_number: 6,
 			date: '14/06', 
 			time: '22:00', 
 			group: groupC)
+# VERIFICAR - horario diferente
 Game.create(game_number: 21, 
 			team1: colombia, 
 			team2: cote, 
@@ -137,7 +138,7 @@ Game.create(game_number: 21,
 			date: '19/06', 
 			time: '22:00', 
 			group: groupC)
-Game.create(game_number: 22, 
+game22 = Game.create(game_number: 22, 
 			team1: japan, 
 			team2: greece, 
 			venue: natal, 
@@ -151,13 +152,19 @@ Game.create(game_number: 37,
 			date: '24/06', 
 			time: '17:00', 
 			group: groupC)
-Game.create(game_number: 38, 
+game38 = Game.create(game_number: 38, 
 			team1: greece, 
 			team2: cote, 
 			venue: fortaleza, 
 			date: '24/06', 
 			time: '17:00', 
 			group: groupC)
+
+
+##teste API
+game22.update(goals1: 1, goals2: 1)
+game38.update(goals1: 1, goals2: 4)
+
 
 ##### GAMES - GROUP D
 Game.create(game_number: 7, 
@@ -167,7 +174,7 @@ Game.create(game_number: 7,
 			date: '14/06', 
 			time:'16:00', 
 			group: groupD)
-Game.create(game_number: 8, 
+game8 = Game.create(game_number: 8, 
 			team1: england, 
 			team2: italy, 
 			venue: manaus, 
@@ -181,7 +188,7 @@ Game.create(game_number: 23,
 			date: '19/06', 
 			time:'16:00', 
 			group: groupD)
-Game.create(game_number: 24, 
+game24 = Game.create(game_number: 24, 
 			team1: italy, 
 			team2: costa, 
 			venue: recife, 
@@ -202,6 +209,13 @@ Game.create(game_number: 40,
 			date: '24/06', 
 			time:'13:00', 
 			group: groupD)
+
+##teste API
+game8.update(goals1: 3, goals2: 1)
+game24.update(goals1: 1, goals2: 0)
+
+
+
 
 
 ##### GAMES - GROUP E
@@ -233,20 +247,27 @@ Game.create(game_number: 26,
 			date: '20/06', 
 			time:'19:00', 
 			group: groupE)
-Game.create(game_number: 41, 
+game41 = Game.create(game_number: 41, 
 			team1: honduras, 
 			team2: switzerland, 
 			venue: manaus, 
 			date: '25/06', 
 			time:'17:00', 
 			group: groupE)
-Game.create(game_number: 42, 
+game42 = Game.create(game_number: 42, 
 			team1: ecuador, 
 			team2: france, 
 			venue: rio, 
 			date: '25/06', 
 			time:'17:00', 
 			group: groupE)
+
+
+##teste API
+game42.update(goals1: 1, goals2: 5)
+game41.update(goals1: 10, goals2: 4)
+
+
 
 ##### GAMES - GROUP F
 Game.create(game_number: 11, 
@@ -256,7 +277,7 @@ Game.create(game_number: 11,
 			date: '15/06', 
 			time: '19:00', 
 			group: groupF)
-Game.create(game_number: 12, 
+game12 = Game.create(game_number: 12, 
 			team1: iran, 
 			team2: nigeria, 
 			venue: curitiba, 
@@ -270,7 +291,7 @@ Game.create(game_number: 27,
 			date: '21/06', 
 			time: '13:00', 
 			group: groupF)
-Game.create(game_number: 28, 
+game28 = Game.create(game_number: 28, 
 			team1: nigeria, 
 			team2: bosnia, 
 			venue: cuiaba, 
@@ -292,8 +313,16 @@ Game.create(game_number: 44,
 			time: '13:00', 
 			group: groupF)
 
+##teste API
+game12.update(goals1: 0, goals2: 0)
+game28.update(goals1: 4, goals2: 4)
+
+
+
+
+
 ##### GAMES - GROUP G
-Game.create(game_number: 13, 
+game13 = Game.create(game_number: 13, 
 			team1: germany, 
 			team2: portugal, 
 			venue: salvador, 
@@ -328,13 +357,20 @@ Game.create(game_number: 45,
 			date: '26/06', 
 			time: '13:00', 
 			group: groupG)
-Game.create(game_number: 46, 
+game46 = Game.create(game_number: 46, 
 			team1: portugal, 
 			team2: ghana, 
 			venue: brasilia, 
 			date: '26/06', 
 			time: '13:00', 
 			group: groupG)
+
+##teste API
+game13.update(goals1: 1, goals2: 0)
+game46.update(goals1: 1, goals2: 0)
+
+
+
 
 ##### GAMES - GROUP H
 Game.create(game_number: 15, 
@@ -344,7 +380,7 @@ Game.create(game_number: 15,
 			date: '17/06', 
 			time: '13:00', 
 			group: groupH)
-Game.create(game_number: 16, 
+game16 = Game.create(game_number: 16, 
 			team1: russia, 
 			team2: korea, 
 			venue: cuiaba, 
@@ -358,7 +394,7 @@ Game.create(game_number: 31,
 			date: '22/06', 
 			time: '13:00', 
 			group: groupH)
-Game.create(game_number: 32, 
+game32 = Game.create(game_number: 32, 
 			team1: korea, 
 			team2: algeria, 
 			venue: poa,
@@ -380,7 +416,9 @@ Game.create(game_number: 48,
 			time: '17:00', 
 			group: groupH)
 
-
+##teste API
+game16.update(goals1: 2, goals2: 0)
+game32.update(goals1: 2, goals2: 4)
 
 
 
