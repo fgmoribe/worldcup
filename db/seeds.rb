@@ -419,7 +419,7 @@ game48 = Game.create(game_number: 48,
 ##teste API
 game16.update(goals1: 2, goals2: 0)
 game32.update(goals1: 2, goals2: 4)
-game48.update(goals1: 2, goals2: 2, penalty1: 4, penalty2: 5)
+game48.update(goals1: 2, goals2: 2)
 
 
 ##### GAMES - ROUND OF 16
