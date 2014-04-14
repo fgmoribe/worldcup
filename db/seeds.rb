@@ -423,7 +423,7 @@ game32.update(goals1: 2, goals2: 4)
 
 
 ##### GAMES - ROUND OF 16
-Game.create(game_number: 49, 
+game49 = Game.create(game_number: 49, 
 			team1: tbd, 
 			team2: tbd, 
 			venue: bh, 
@@ -451,7 +451,7 @@ Game.create(game_number: 52,
 			date: '29/06', 
 			time: '17:00', 
 			group: group_round16)
-Game.create(game_number: 53, 
+game53 = Game.create(game_number: 53, 
 			team1: tbd, 
 			team2: tbd, 
 			venue: brasilia, 
@@ -481,6 +481,10 @@ Game.create(game_number: 56,
 			group: group_round16)
 
 
+
+##teste API
+game49.update(goals1: 2, goals2: 0)
+game53.update(goals1: 2, goals2: 2, penalty1: 3, penalty2:4)
 
 
 ##### GAMES - QUARTER-FINALS

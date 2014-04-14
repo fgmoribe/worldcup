@@ -8,12 +8,14 @@ json.games @games do |game|
 		json.portuguese_name game.team1.portuguese_name
 	end
 	json.goals1 game.goals1
+	json.penalty1 game.penalty1
 	json.team2 do
 		json.team_number game.team2.team_number
 		json.name game.team2.name
 		json.portuguese_name game.team2.portuguese_name
 	end
 	json.goals2 game.goals2
+	json.penalty2 game.penalty2
 	json.venue do
 		json.venue_number game.venue.venue_number
 		json.name game.venue.name
