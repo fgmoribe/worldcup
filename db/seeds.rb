@@ -408,7 +408,7 @@ Game.create(game_number: 47,
 			date: '26/06', 
 			time: '17:00', 
 			group: groupH)
-Game.create(game_number: 48, 
+game48 = Game.create(game_number: 48, 
 			team1: algeria, 
 			team2: russia, 
 			venue: curitiba, 
@@ -419,7 +419,7 @@ Game.create(game_number: 48,
 ##teste API
 game16.update(goals1: 2, goals2: 0)
 game32.update(goals1: 2, goals2: 4)
-
+game48.update(goals1: 2, goals2: 2, penalty1: 4, penalty2: 5)
 
 
 ##### GAMES - ROUND OF 16
@@ -483,7 +483,7 @@ Game.create(game_number: 56,
 
 
 ##teste API
-game49.update(goals1: 2, goals2: 0)
+game49.update(goals1: 2, goals2: 0, penalty1: 7, penalty2:6)
 game53.update(goals1: 2, goals2: 2, penalty1: 3, penalty2:4)
 
 
