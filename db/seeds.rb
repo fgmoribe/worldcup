@@ -554,13 +554,13 @@ Game.create(game_number: 63,
 Game.create(game_number: 64, 
 			team1: tbd, 
 			team2: tbd, 
-			venue: bh, 
+			venue: rio, 
 			date: '13/07', 
 			time: '16:00', 
 			group: group_final)
 
 
-#teste
+
 
 
 
