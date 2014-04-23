@@ -6,10 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-
-####
-#     PRODUCTION FILE
-####
+###
+#   INTEGATION FILE
+###
 
 
 #clear database
@@ -104,8 +103,8 @@ Game.create(game_number: 33, team1: cameroon, team2: brazil, venue:brasilia, dat
 Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: '23/06', time:'17:00', group: groupA)
 
 ##teste API
-#game1.update(goals1: 1, goals2: 2)
-#game2.update(goals1: 2, goals2: 0)
+game1.update(goals1: 1, goals2: 2)
+game2.update(goals1: 2, goals2: 0)
 
 ##### GAMES - GROUP B
 game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
@@ -116,8 +115,8 @@ Game.create(game_number: 35, team1: australia, team2: spain, venue:curitiba, dat
 Game.create(game_number: 36, team1: netherlands, team2: chile, venue:sp, date: '23/06', time:'13:00', group: groupB)
 
 ##teste API
-#game3.update(goals1: 3, goals2: 0)
-#game4.update(goals1: 2, goals2: 2)
+game3.update(goals1: 3, goals2: 0)
+game4.update(goals1: 2, goals2: 2)
 
 
 ##### GAMES - GROUP C
@@ -167,8 +166,8 @@ game38 = Game.create(game_number: 38,
 
 
 ##teste API
-#game22.update(goals1: 1, goals2: 1)
-#game38.update(goals1: 1, goals2: 4)
+game22.update(goals1: 1, goals2: 1)
+game38.update(goals1: 1, goals2: 4)
 
 
 ##### GAMES - GROUP D
@@ -216,8 +215,8 @@ Game.create(game_number: 40,
 			group: groupD)
 
 ##teste API
-#game8.update(goals1: 3, goals2: 1)
-#game24.update(goals1: 1, goals2: 0)
+game8.update(goals1: 3, goals2: 1)
+game24.update(goals1: 1, goals2: 0)
 
 
 
@@ -269,8 +268,8 @@ game42 = Game.create(game_number: 42,
 
 
 ##teste API
-#game42.update(goals1: 1, goals2: 5)
-#game41.update(goals1: 10, goals2: 4)
+game42.update(goals1: 1, goals2: 5)
+game41.update(goals1: 10, goals2: 4)
 
 
 
@@ -319,8 +318,8 @@ Game.create(game_number: 44,
 			group: groupF)
 
 ##teste API
-#game12.update(goals1: 0, goals2: 0)
-#game28.update(goals1: 4, goals2: 4)
+game12.update(goals1: 0, goals2: 0)
+game28.update(goals1: 4, goals2: 4)
 
 
 
@@ -371,8 +370,8 @@ game46 = Game.create(game_number: 46,
 			group: groupG)
 
 ##teste API
-#game13.update(goals1: 1, goals2: 0)
-#game46.update(goals1: 1, goals2: 0)
+game13.update(goals1: 1, goals2: 0)
+game46.update(goals1: 1, goals2: 0)
 
 
 
@@ -422,9 +421,9 @@ game48 = Game.create(game_number: 48,
 			group: groupH)
 
 ##teste API
-#game16.update(goals1: 2, goals2: 0)
-#game32.update(goals1: 2, goals2: 4)
-#game48.update(goals1: 2, goals2: 2)
+game16.update(goals1: 2, goals2: 0)
+game32.update(goals1: 2, goals2: 4)
+game48.update(goals1: 2, goals2: 2)
 
 
 ##### GAMES - ROUND OF 16
@@ -488,8 +487,8 @@ Game.create(game_number: 56,
 
 
 ##teste API
-#game49.update(goals1: 2, goals2: 0, penalty1: 7, penalty2:6)
-#game53.update(goals1: 2, goals2: 2, penalty1: 3, penalty2:4)
+game49.update(goals1: 2, goals2: 0, penalty1: 7, penalty2:6)
+game53.update(goals1: 2, goals2: 2, penalty1: 3, penalty2:4)
 
 
 ##### GAMES - QUARTER-FINALS
