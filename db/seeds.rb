@@ -17,6 +17,7 @@ Group.delete_all
 Team.delete_all
 Venue.delete_all
 Game.delete_all
+Classification.delete_all
 
 ##### GROUPS
 groupA = Group.create(group_number: 1, name: 'A')
@@ -32,6 +33,8 @@ group_quarter = Group.create(group_number: 10, name: 'Quarter-finals')
 group_semi = Group.create(group_number: 11, name: 'Semi-finals')
 group_third = Group.create(group_number: 12, name: 'Play-off for third place')
 group_final = Group.create(group_number: 13, name: 'Final')
+
+
 
 ##### TEAMS
 #GROUP A
@@ -82,54 +85,113 @@ tbd = Team.create(team_number: 33, name: 'TBD', portuguese_name: 'TBD')
 
 ##### CLASSIFICATION
 #GROUP A
-class1 = Classification.create(group: groupA, team: brazil, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class2 = Classification.create(group: groupA, team: croatia, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class3 = Classification.create(group: groupA, team: mexico, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class4 = Classification.create(group: groupA, team: cameroon, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_brazil = Classification.create(group: groupA, team: brazil, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_croatia = Classification.create(group: groupA, team: croatia, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_mexico = Classification.create(group: groupA, team: mexico, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_cameroon = Classification.create(group: groupA, team: cameroon, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 #GROUP B
-class5 = Classification.create(group: groupB, team: spain, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class6 = Classification.create(group: groupB, team: netherlands, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class7 = Classification.create(group: groupB, team: chile, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class8 = Classification.create(group: groupB, team: australia, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_spain = Classification.create(group: groupB, team: spain, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_netherlands = Classification.create(group: groupB, team: netherlands, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_chile = Classification.create(group: groupB, team: chile, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_australia = Classification.create(group: groupB, team: australia, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 #GROUP C
-class9 = Classification.create(group: groupC, team: colombia, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class10 = Classification.create(group: groupC, team: greece, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class11 = Classification.create(group: groupC, team: cote, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class12 = Classification.create(group: groupC, team: japan, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_colombia = Classification.create(group: groupC, team: colombia, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_greece = Classification.create(group: groupC, team: greece, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_cote = Classification.create(group: groupC, team: cote, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_japan = Classification.create(group: groupC, team: japan, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 #GROUP D
-class13 = Classification.create(group: groupD, team: uruguay, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class14 = Classification.create(group: groupD, team: costa, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class15 = Classification.create(group: groupD, team: england, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class16 = Classification.create(group: groupD, team: italy, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_uruguay = Classification.create(group: groupD, team: uruguay, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_costa = Classification.create(group: groupD, team: costa, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_england = Classification.create(group: groupD, team: england, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_italy = Classification.create(group: groupD, team: italy, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 #GROUP E
-class17 = Classification.create(group: groupE, team: switzerland, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class18 = Classification.create(group: groupE, team: ecuador, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class19 = Classification.create(group: groupE, team: france, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class20 = Classification.create(group: groupE, team: honduras, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_switzerland = Classification.create(group: groupE, team: switzerland, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_ecuador = Classification.create(group: groupE, team: ecuador, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_france = Classification.create(group: groupE, team: france, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_honduras = Classification.create(group: groupE, team: honduras, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 
 #GROUP F
-class21 = Classification.create(group: groupF, team: argentina, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class22 = Classification.create(group: groupF, team: bosnia, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class23 = Classification.create(group: groupF, team: iran, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class24 = Classification.create(group: groupF, team: nigeria, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_argentina = Classification.create(group: groupF, team: argentina, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_bosnia = Classification.create(group: groupF, team: bosnia, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_iran = Classification.create(group: groupF, team: iran, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_nigeria = Classification.create(group: groupF, team: nigeria, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 
 #GROUP G
-class25 = Classification.create(group: groupG, team: germany, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class26 = Classification.create(group: groupG, team: portugal, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class27 = Classification.create(group: groupG, team: ghana, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class28 = Classification.create(group: groupG, team: usa, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_germany = Classification.create(group: groupG, team: germany, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_portugal = Classification.create(group: groupG, team: portugal, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_ghana = Classification.create(group: groupG, team: ghana, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_usa = Classification.create(group: groupG, team: usa, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 #GROUP H
-class29 = Classification.create(group: groupH, team: belgium , position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class30 = Classification.create(group: groupH, team: algeria, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class31 = Classification.create(group: groupH, team: russia, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class32 = Classification.create(group: groupH, team: korea, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_belgium = Classification.create(group: groupH, team: belgium , position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_algeria = Classification.create(group: groupH, team: algeria, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_russia = Classification.create(group: groupH, team: russia, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_korea = Classification.create(group: groupH, team: korea, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+
+
+### CLASSIFICATION UPDATES
+## Grupo A
+#class_brazil.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 2)
+#class_croatia.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 2)
+#class_mexico.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 2)
+#class_cameroon.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 2)
+
+## Grupo B
+#class_spain.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_netherlands.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_chile.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_australia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+## Grupo C
+#class_colombia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_greece.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_cote.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_japan.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+## Grupo D
+#class_uruguay.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_costa.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_england.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_italy.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+## Grupo E
+#class_switzerland.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_ecuador.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_france.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_honduras.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+## Grupo F
+#class_argentina.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_bosnia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_iran.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_nigeria.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+## Grupo G
+#class_germany.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_portugal.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_ghana.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_usa.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+## Grupo H
+#class_belgium.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_algeria.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_russia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_korea.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+
+
+
+
+
+
+
 
 
 
