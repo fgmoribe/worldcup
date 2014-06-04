@@ -80,6 +80,65 @@ tbd = Team.create(team_number: 33, name: 'TBD', portuguese_name: 'TBD')
 
 
 
+##### CLASSIFICATION
+#GROUP A
+class1 = Classification.create(group: groupA, team: brazil, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class2 = Classification.create(group: groupA, team: croatia, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class3 = Classification.create(group: groupA, team: mexico, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class4 = Classification.create(group: groupA, team: cameroon, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+#GROUP B
+class5 = Classification.create(group: groupB, team: spain, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class6 = Classification.create(group: groupB, team: netherlands, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class7 = Classification.create(group: groupB, team: chile, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class8 = Classification.create(group: groupB, team: australia, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+#GROUP C
+class9 = Classification.create(group: groupC, team: colombia, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class10 = Classification.create(group: groupC, team: greece, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class11 = Classification.create(group: groupC, team: cote, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class12 = Classification.create(group: groupC, team: japan, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+#GROUP D
+class13 = Classification.create(group: groupD, team: uruguay, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class14 = Classification.create(group: groupD, team: costa, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class15 = Classification.create(group: groupD, team: england, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class16 = Classification.create(group: groupD, team: italy, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+#GROUP E
+class17 = Classification.create(group: groupE, team: switzerland, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class18 = Classification.create(group: groupE, team: ecuador, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class19 = Classification.create(group: groupE, team: france, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class20 = Classification.create(group: groupE, team: honduras, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+
+#GROUP F
+class21 = Classification.create(group: groupF, team: argentina, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class22 = Classification.create(group: groupF, team: bosnia, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class23 = Classification.create(group: groupF, team: iran, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class24 = Classification.create(group: groupF, team: nigeria, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+
+#GROUP G
+class25 = Classification.create(group: groupG, team: germany, position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class26 = Classification.create(group: groupG, team: portugal, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class27 = Classification.create(group: groupG, team: ghana, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class28 = Classification.create(group: groupG, team: usa, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+#GROUP H
+class29 = Classification.create(group: groupH, team: belgium , position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class30 = Classification.create(group: groupH, team: algeria, position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class31 = Classification.create(group: groupH, team: russia, position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class32 = Classification.create(group: groupH, team: korea, position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+
+
+
+
+
+
+
+
+
 ##### VENUES
 sp = Venue.create(venue_number: 1, name: 'São Paulo')
 natal = Venue.create(venue_number: 2, name: 'Natal')

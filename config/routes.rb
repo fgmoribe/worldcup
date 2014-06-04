@@ -3,6 +3,7 @@ Worldcup::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :games, only: [:index], :defaults => { :format => 'json' }
+      resources :classifications, only: [:index], :defaults => { :format => 'json' }
     end
   end
 

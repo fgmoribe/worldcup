@@ -11,7 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140414192547) do
+ActiveRecord::Schema.define(version: 20140604145045) do
+
+  create_table "classifications", force: true do |t|
+    t.integer  "games"
+    t.integer  "wins"
+    t.integer  "draws"
+    t.integer  "loses"
+    t.integer  "points"
+    t.integer  "goals"
+    t.integer  "saldo"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "group_id"
+    t.integer  "team_id"
+  end
 
   create_table "games", force: true do |t|
     t.integer  "goals1"
