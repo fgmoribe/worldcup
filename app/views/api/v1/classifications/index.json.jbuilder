@@ -1,4 +1,4 @@
-json.classifications do
+
 
 	
 		json.groupA @groupA do |gr|
@@ -138,4 +138,3 @@ json.classifications do
 			json.points gr.points
 		end
 	
-end
