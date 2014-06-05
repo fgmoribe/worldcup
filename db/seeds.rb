@@ -150,16 +150,16 @@ class_korea = Classification.create(group: groupH, team: korea, position: 4, gam
 #class_australia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo C
-class_colombia.update(position: 4, games: 2, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_greece.update(position: 2, games: 4, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_cote.update(position: 3, games: 6, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_japan.update(position: 1, games: 8, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_colombia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_greece.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_cote.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_japan.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo D
-#class_uruguay.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-#class_costa.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-#class_england.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-#class_italy.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_uruguay.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_costa.update(position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_england.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_italy.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo E
 #class_switzerland.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
