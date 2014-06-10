@@ -225,8 +225,8 @@ Game.create(game_number: 33, team1: cameroon, team2: brazil, venue:brasilia, dat
 Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: '23/06', time:'17:00', group: groupA)
 
 ##teste API
-game1.update(goals1: 1, goals2: 2)
-game2.update(goals1: 2, goals2: 0)
+#game1.update(goals1: 1, goals2: 2)
+#game2.update(goals1: 2, goals2: 0)
 
 ##### GAMES - GROUP B
 game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
