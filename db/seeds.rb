@@ -138,8 +138,8 @@ class_korea = Classification.create(group: groupH, team: korea, position: 4, gam
 
 ### CLASSIFICATION UPDATES
 ## Grupo A
-class_brazil.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
-class_croatia.update(position: 0, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
+class_brazil.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
+class_croatia.update(position: 1, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
 #class_mexico.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 2)
 #class_cameroon.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 2)
 
