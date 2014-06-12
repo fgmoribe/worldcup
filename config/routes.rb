@@ -1,4 +1,6 @@
 Worldcup::Application.routes.draw do
+  resources :games
+
   #get "games/index"
   namespace :api do
     namespace :v1 do
