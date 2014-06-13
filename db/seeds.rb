@@ -139,9 +139,9 @@ class_korea = Classification.create(group: groupH, team: korea, position: 4, gam
 ### CLASSIFICATION UPDATES
 ## Grupo A
 class_brazil.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
-class_croatia.update(position: 2, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
-class_mexico.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_cameroon.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_croatia.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
+class_mexico.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 1, saldo: 1)
+class_cameroon.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -1)
 
 ## Grupo B
 #class_spain.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
@@ -226,7 +226,7 @@ Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: 
 
 ##teste API
 game1.update(goals1: 3, goals2: 1)
-#game2.update(goals1: 2, goals2: 0)
+game2.update(goals1: 1, goals2: 0)
 
 ##### GAMES - GROUP B
 game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
