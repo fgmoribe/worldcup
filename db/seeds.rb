@@ -156,10 +156,10 @@ class_cote.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0,
 class_japan.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo D
-class_uruguay.update(position: 2, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
+class_uruguay.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
 class_costa.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
-class_england.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_italy.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_england.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
+class_italy.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
 
 ## Grupo E
 #class_switzerland.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
@@ -339,7 +339,7 @@ Game.create(game_number: 40,
 
 ##teste API
 game7.update(goals1: 1, goals2: 3)
-#game8.update(goals1: 3, goals2: 1)
+game8.update(goals1: 1, goals2: 2)
 #game24.update(goals1: 1, goals2: 0)
 
 
