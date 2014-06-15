@@ -168,10 +168,10 @@ class_france.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 
 class_honduras.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -3)
 
 ## Grupo F
-#class_argentina.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-#class_bosnia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-#class_iran.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-#class_nigeria.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_argentina.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_bosnia.update(position: 2, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
+class_iran.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_nigeria.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo G
 #class_germany.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
@@ -401,7 +401,7 @@ game10.update(goals1: 3, goals2: 0)
 
 
 ##### GAMES - GROUP F
-Game.create(game_number: 11, 
+game11 = Game.create(game_number: 11, 
 			team1: argentina, 
 			team2: bosnia, 
 			venue: rio, 
@@ -444,6 +444,7 @@ Game.create(game_number: 44,
 			time: '13:00', 
 			group: groupF)
 
+game11.update(goals1: 2, goals2: 1)
 ##teste API
 #game12.update(goals1: 0, goals2: 0)
 #game28.update(goals1: 4, goals2: 4)
