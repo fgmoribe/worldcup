@@ -557,7 +557,7 @@ game48 = Game.create(game_number: 48,
 ##### GAMES - ROUND OF 16
 game49 = Game.create(game_number: 49, 
 			team1: brazil, 
-			team2: tbd, 
+			team2: switzerland, 
 			venue: bh, 
 			date: '28/06', 
 			time: '13:00', 
