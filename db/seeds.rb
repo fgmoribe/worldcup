@@ -655,7 +655,7 @@ Game.create(game_number: 60,
 
 ##### GAMES - SEMI-FINALS
 Game.create(game_number: 61, 
-			team1: tbd, 
+			team1: brazil, 
 			team2: tbd, 
 			venue: bh, 
 			date: '08/07', 
