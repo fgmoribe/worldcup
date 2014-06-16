@@ -169,9 +169,9 @@ class_honduras.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points
 
 ## Grupo F
 class_argentina.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
-class_bosnia.update(position: 2, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
-class_iran.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_nigeria.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_bosnia.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
+class_iran.update(position: 3, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 0, saldo: 0)
+class_nigeria.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 0, saldo: 0)
 
 ## Grupo G
 class_germany.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 4, saldo: 4)
@@ -446,7 +446,7 @@ Game.create(game_number: 44,
 
 game11.update(goals1: 2, goals2: 1)
 ##teste API
-#game12.update(goals1: 0, goals2: 0)
+game12.update(goals1: 0, goals2: 0)
 #game28.update(goals1: 4, goals2: 4)
 
 
