@@ -182,8 +182,8 @@ class_usa.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, 
 ## Grupo H
 class_belgium.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
 class_algeria.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
-class_russia.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
-class_korea.update(position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_russia.update(position: 3, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 1, saldo: 0)
+class_korea.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 1, saldo: 0)
 
 
 
@@ -552,7 +552,7 @@ game48 = Game.create(game_number: 48,
 
 ##teste API
 game15.update(goals1: 2, goals2: 1)
-#game16.update(goals1: 2, goals2: 0)
+game16.update(goals1: 1, goals2: 1)
 #game32.update(goals1: 2, goals2: 4)
 #game48.update(goals1: 2, goals2: 2)
 
