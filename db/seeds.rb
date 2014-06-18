@@ -144,10 +144,10 @@ class_mexico.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points: 
 class_cameroon.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -1)
 
 ## Grupo B
-class_spain.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -4)
+class_spain.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 1, saldo: -6)
 class_netherlands.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 8, saldo: 5)
-class_chile.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
-class_australia.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 3, saldo: -3)
+class_chile.update(position: 2, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 5, saldo: 4)
+class_australia.update(position: 3, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 3, saldo: -3)
 
 ## Grupo C
 class_colombia.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 3)
@@ -241,6 +241,7 @@ Game.create(game_number: 36, team1: netherlands, team2: chile, venue:sp, date: '
 game3.update(goals1: 1, goals2: 5)
 game4.update(goals1: 3, goals2: 1)
 game20.update(goals1: 2, goals2: 3)
+game19.update(goals1: 0, goals2: 2)
 
 ##### GAMES - GROUP C
 game5 = Game.create(game_number: 5, 
