@@ -150,9 +150,9 @@ class_chile.update(position: 2, games: 2, wins: 2, draws: 0, loses: 0, points: 6
 class_australia.update(position: 3, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 3, saldo: -3)
 
 ## Grupo C
-class_colombia.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 3)
+class_colombia.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 5, saldo: 4)
 class_greece.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -3)
-class_cote.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_cote.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 3, saldo: 0)
 class_japan.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
 
 ## Grupo D
@@ -260,7 +260,7 @@ game6 = Game.create(game_number: 6,
 			time: '22:00', 
 			group: groupC)
 # VERIFICAR - horario diferente
-Game.create(game_number: 21, 
+game21 = Game.create(game_number: 21, 
 			team1: colombia, 
 			team2: cote, 
 			venue: brasilia, 
@@ -292,6 +292,7 @@ game38 = Game.create(game_number: 38,
 
 game5.update(goals1: 3, goals2: 0)
 game6.update(goals1: 2, goals2: 1)
+game21.update(goals1: 2, goals2: 1)
 ##teste API
 #game22.update(goals1: 1, goals2: 1)
 #game38.update(goals1: 1, goals2: 4)
