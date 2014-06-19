@@ -228,7 +228,7 @@ Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: 
 game1.update(goals1: 3, goals2: 1)
 game2.update(goals1: 1, goals2: 0)
 game17.update(goals1: 0, goals2: 0)
-game17.update(goals1: 0, goals2: 4)
+game18.update(goals1: 0, goals2: 4)
 
 ##### GAMES - GROUP B
 game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
