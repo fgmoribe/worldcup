@@ -139,9 +139,9 @@ class_korea = Classification.create(group: groupH, team: korea, position: 4, gam
 ### CLASSIFICATION UPDATES
 ## Grupo A
 class_brazil.update(position: 1, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 3, saldo: 2)
-class_croatia.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
+class_croatia.update(position: 3, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 5, saldo: 2)
 class_mexico.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 1, saldo: 1)
-class_cameroon.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -1)
+class_cameroon.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 0, saldo: -5)
 
 ## Grupo B
 class_spain.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 1, saldo: -6)
@@ -220,7 +220,7 @@ bh = Venue.create(venue_number: 12, name: 'Belo Horizonte')
 game1 = Game.create(game_number: 1, team1: brazil, team2: croatia, venue:sp, date: '12/06', time:'17:00', group: groupA)
 game2 = Game.create(game_number: 2, team1: mexico, team2: cameroon, venue:natal, date: '13/06', time:'13:00', group: groupA)
 game17 = Game.create(game_number: 17, team1: brazil, team2: mexico, venue:fortaleza, date: '17/06', time:'16:00', group: groupA)
-Game.create(game_number: 18, team1: cameroon, team2: croatia, venue:manaus, date: '18/06', time:'18:00', group: groupA)
+game18 = Game.create(game_number: 18, team1: cameroon, team2: croatia, venue:manaus, date: '18/06', time:'18:00', group: groupA)
 Game.create(game_number: 33, team1: cameroon, team2: brazil, venue:brasilia, date: '23/06', time:'17:00', group: groupA)
 Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: '23/06', time:'17:00', group: groupA)
 
@@ -228,6 +228,7 @@ Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: 
 game1.update(goals1: 3, goals2: 1)
 game2.update(goals1: 1, goals2: 0)
 game17.update(goals1: 0, goals2: 0)
+game17.update(goals1: 0, goals2: 4)
 
 ##### GAMES - GROUP B
 game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
