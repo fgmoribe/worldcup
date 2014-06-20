@@ -157,9 +157,9 @@ class_japan.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1
 
 ## Grupo D
 class_uruguay.update(position: 3, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 3, saldo: -1)
-class_costa.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
+class_costa.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 4, saldo: 3)
 class_england.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 2, saldo: -2)
-class_italy.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_italy.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 2, saldo: 0)
 
 ## Grupo E
 class_switzerland.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
@@ -346,7 +346,7 @@ Game.create(game_number: 40,
 game7.update(goals1: 1, goals2: 3)
 game8.update(goals1: 1, goals2: 2)
 game23.update(goals1: 2, goals2: 1)
-#game24.update(goals1: 1, goals2: 0)
+game24.update(goals1: 0, goals2: 1)
 
 
 
