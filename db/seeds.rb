@@ -563,21 +563,21 @@ game49 = Game.create(game_number: 49,
 			date: '28/06', 
 			time: '13:00', 
 			group: group_round16)
-Game.create(game_number: 50, 
+game50 = Game.create(game_number: 50, 
 			team1: brazil, 
 			team2: germany, 
 			venue: rio, 
 			date: '28/06', 
 			time: '17:00', 
 			group: group_round16)
-Game.create(game_number: 51, 
+game51 = Game.create(game_number: 51, 
 			team1: mexico, 
 			team2: cameroon, 
 			venue: fortaleza, 
 			date: '29/06', 
 			time: '13:00', 
 			group: group_round16)
-Game.create(game_number: 52, 
+game52 = Game.create(game_number: 52, 
 			team1: tbd, 
 			team2: tbd, 
 			venue: recife, 
@@ -591,21 +591,21 @@ game53 = Game.create(game_number: 53,
 			date: '30/06', 
 			time: '13:00', 
 			group: group_round16)
-Game.create(game_number: 54, 
+game54 = Game.create(game_number: 54, 
 			team1: england, 
 			team2: italy, 
 			venue: poa, 
 			date: '30/06', 
 			time: '17:00', 
 			group: group_round16)
-Game.create(game_number: 55, 
+game55 = Game.create(game_number: 55, 
 			team1: spain, 
 			team2: portugal, 
 			venue: sp, 
 			date: '01/07', 
 			time: '13:00', 
 			group: group_round16)
-Game.create(game_number: 56, 
+game56 = Game.create(game_number: 56, 
 			team1: brazil, 
 			team2: spain, 
 			venue: salvador, 
@@ -621,28 +621,28 @@ Game.create(game_number: 56,
 
 
 ##### GAMES - QUARTER-FINALS
-Game.create(game_number: 57, 
+game57 = Game.create(game_number: 57, 
 			team1: germany, 
 			team2: brazil, 
 			venue: rio, 
 			date: '04/07', 
 			time: '13:00', 
 			group: group_quarter)
-Game.create(game_number: 58, 
+game58 = Game.create(game_number: 58, 
 			team1: cameroon, 
 			team2: mexico, 
 			venue: fortaleza, 
 			date: '04/07', 
 			time: '17:00', 
 			group: group_quarter)
-Game.create(game_number: 59, 
+game59 = Game.create(game_number: 59, 
 			team1: honduras, 
 			team2: france, 
 			venue: brasilia, 
 			date: '05/07', 
 			time: '13:00', 
 			group: group_quarter)
-Game.create(game_number: 60, 
+game60 = Game.create(game_number: 60, 
 			team1: germany, 
 			team2: mexico, 
 			venue: salvador, 
@@ -655,14 +655,14 @@ Game.create(game_number: 60,
 
 
 ##### GAMES - SEMI-FINALS
-Game.create(game_number: 61, 
+game61 = Game.create(game_number: 61, 
 			team1: brazil, 
 			team2: spain, 
 			venue: bh, 
 			date: '08/07', 
 			time: '17:00', 
 			group: group_semi)
-Game.create(game_number: 62, 
+game62 = Game.create(game_number: 62, 
 			team1: portugal, 
 			team2: spain, 
 			venue: sp, 
@@ -673,7 +673,7 @@ Game.create(game_number: 62,
 
 
 ##### GAMES - THIRD
-Game.create(game_number: 63, 
+game63 = Game.create(game_number: 63, 
 			team1: france, 
 			team2: brazil, 
 			venue: brasilia, 
@@ -684,7 +684,7 @@ Game.create(game_number: 63,
 
 
 ##### GAMES - FINAL
-Game.create(game_number: 64, 
+game64 = Game.create(game_number: 64, 
 			team1: brazil, 
 			team2: germany, 
 			venue: rio, 
@@ -695,8 +695,22 @@ Game.create(game_number: 64,
 
 
 
-
-
+game49.update(goals1: 2, goals2: 2, penalty1: 5, penalty2:2)
+game50.update(goals1: 3, goals2: 3, penalty1: 6, penalty2:4)
+game51.update(goals1: 4, goals2: 4, penalty1: 7, penalty2:5)
+game52.update(goals1: 5, goals2: 5, penalty1: 4, penalty2:3)
+game53.update(goals1: 6, goals2: 0, penalty1: 5, penalty2:6)
+game54.update(goals1: 3, goals2: 0, penalty1: 4, penalty2:7)
+game55.update(goals1: 2, goals2: 7, penalty1: 5, penalty2:2)
+game56.update(goals1: 1, goals2: 5, penalty1: 6, penalty2:3)
+game57.update(goals1: 0, goals2: 3, penalty1: 7, penalty2:6)
+game58.update(goals1: 3, goals2: 2, penalty1: 5, penalty2:4)
+game59.update(goals1: 4, goals2: 1, penalty1: 6, penalty2:5)
+game60.update(goals1: 5, goals2: 0, penalty1: 4, penalty2:6)
+game61.update(goals1: 6, goals2: 3, penalty1: 5, penalty2:7)
+game62.update(goals1: 2, goals2: 4, penalty1: 6, penalty2:2)
+game63.update(goals1: 1, goals2: 5, penalty1: 4, penalty2:3)
+game64.update(goals1: 2, goals2: 6, penalty1: 3, penalty2:4)
 
 
 
