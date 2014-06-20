@@ -138,27 +138,27 @@ class_korea = Classification.create(group: groupH, team: korea, position: 4, gam
 
 ### CLASSIFICATION UPDATES
 ## Grupo A
-class_brazil.update(position: 1, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 3, saldo: 2)
-class_croatia.update(position: 3, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 5, saldo: 2)
-class_mexico.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 1, saldo: 1)
-class_cameroon.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 0, saldo: -5)
+class_brazil.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
+class_croatia.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
+class_mexico.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 1, saldo: 1)
+class_cameroon.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -1)
 
 ## Grupo B
-class_spain.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 1, saldo: -6)
-class_netherlands.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 8, saldo: 5)
-class_chile.update(position: 2, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 5, saldo: 4)
-class_australia.update(position: 3, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 3, saldo: -3)
+class_spain.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -4)
+class_netherlands.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 5, saldo: 4)
+class_chile.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
+class_australia.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
 
 ## Grupo C
-class_colombia.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 5, saldo: 4)
-class_greece.update(position: 4, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 0, saldo: -3)
-class_cote.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 3, saldo: 0)
-class_japan.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 1, saldo: -1)
+class_colombia.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 3)
+class_greece.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -3)
+class_cote.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_japan.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
 
 ## Grupo D
-class_uruguay.update(position: 3, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 3, saldo: -1)
+class_uruguay.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -2)
 class_costa.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 3, saldo: 2)
-class_england.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 2, saldo: -2)
+class_england.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
 class_italy.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
 
 ## Grupo E
@@ -169,21 +169,21 @@ class_honduras.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points
 
 ## Grupo F
 class_argentina.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
-class_bosnia.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
-class_iran.update(position: 3, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 0, saldo: 0)
-class_nigeria.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 0, saldo: 0)
+class_bosnia.update(position: 2, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
+class_iran.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_nigeria.update(position: 4, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo G
 class_germany.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 4, saldo: 4)
 class_portugal.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -4)
-class_ghana.update(position: 3, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
-class_usa.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_ghana.update(position: 3, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+class_usa.update(position: 2, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 ## Grupo H
-class_belgium.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
-class_algeria.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
-class_russia.update(position: 3, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 1, saldo: 0)
-class_korea.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 1, saldo: 0)
+#class_belgium.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_algeria.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_russia.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
+#class_korea.update(position: 1, games: 0, wins: 0, draws: 0, loses: 0, points: 0, goals: 0, saldo: 0)
 
 
 
@@ -219,30 +219,27 @@ bh = Venue.create(venue_number: 12, name: 'Belo Horizonte')
 ##### GAMES - GROUP A
 game1 = Game.create(game_number: 1, team1: brazil, team2: croatia, venue:sp, date: '12/06', time:'17:00', group: groupA)
 game2 = Game.create(game_number: 2, team1: mexico, team2: cameroon, venue:natal, date: '13/06', time:'13:00', group: groupA)
-game17 = Game.create(game_number: 17, team1: brazil, team2: mexico, venue:fortaleza, date: '17/06', time:'16:00', group: groupA)
-game18 = Game.create(game_number: 18, team1: cameroon, team2: croatia, venue:manaus, date: '18/06', time:'18:00', group: groupA)
+Game.create(game_number: 17, team1: brazil, team2: mexico, venue:fortaleza, date: '17/06', time:'16:00', group: groupA)
+Game.create(game_number: 18, team1: cameroon, team2: croatia, venue:manaus, date: '18/06', time:'18:00', group: groupA)
 Game.create(game_number: 33, team1: cameroon, team2: brazil, venue:brasilia, date: '23/06', time:'17:00', group: groupA)
 Game.create(game_number: 34, team1: croatia, team2: mexico, venue:recife, date: '23/06', time:'17:00', group: groupA)
 
 ##teste API
 game1.update(goals1: 3, goals2: 1)
 game2.update(goals1: 1, goals2: 0)
-game17.update(goals1: 0, goals2: 0)
-game18.update(goals1: 0, goals2: 4)
 
 ##### GAMES - GROUP B
 game3 = Game.create(game_number: 3, team1: spain, team2: netherlands, venue:salvador, date: '13/06', time:'16:00', group: groupB)
 game4 = Game.create(game_number: 4, team1: chile, team2: australia, venue:cuiaba, date: '13/06', time:'18:00', group: groupB)
-game19 = Game.create(game_number: 19, team1: spain, team2: chile, venue:rio, date: '18/06', time:'16:00', group: groupB)
-game20 = Game.create(game_number: 20, team1: australia, team2: netherlands, venue:poa, date: '18/06', time:'13:00', group: groupB)
+Game.create(game_number: 19, team1: spain, team2: chile, venue:rio, date: '18/06', time:'16:00', group: groupB)
+Game.create(game_number: 20, team1: australia, team2: netherlands, venue:poa, date: '18/06', time:'13:00', group: groupB)
 Game.create(game_number: 35, team1: australia, team2: spain, venue:curitiba, date: '23/06', time:'13:00', group: groupB)
 Game.create(game_number: 36, team1: netherlands, team2: chile, venue:sp, date: '23/06', time:'13:00', group: groupB)
 
 ##teste API
 game3.update(goals1: 1, goals2: 5)
 game4.update(goals1: 3, goals2: 1)
-game20.update(goals1: 2, goals2: 3)
-game19.update(goals1: 0, goals2: 2)
+
 
 ##### GAMES - GROUP C
 game5 = Game.create(game_number: 5, 
@@ -260,7 +257,7 @@ game6 = Game.create(game_number: 6,
 			time: '22:00', 
 			group: groupC)
 # VERIFICAR - horario diferente
-game21 = Game.create(game_number: 21, 
+Game.create(game_number: 21, 
 			team1: colombia, 
 			team2: cote, 
 			venue: brasilia, 
@@ -292,9 +289,8 @@ game38 = Game.create(game_number: 38,
 
 game5.update(goals1: 3, goals2: 0)
 game6.update(goals1: 2, goals2: 1)
-game21.update(goals1: 2, goals2: 1)
 ##teste API
-game22.update(goals1: 0, goals2: 0)
+#game22.update(goals1: 1, goals2: 1)
 #game38.update(goals1: 1, goals2: 4)
 
 
@@ -313,7 +309,7 @@ game8 = Game.create(game_number: 8,
 			date: '14/06', 
 			time:'18:00', 
 			group: groupD)
-game23 = Game.create(game_number: 23, 
+Game.create(game_number: 23, 
 			team1: uruguay, 
 			team2: england, 
 			venue: sp, 
@@ -345,7 +341,6 @@ Game.create(game_number: 40,
 ##teste API
 game7.update(goals1: 1, goals2: 3)
 game8.update(goals1: 1, goals2: 2)
-game23.update(goals1: 2, goals2: 1)
 #game24.update(goals1: 1, goals2: 0)
 
 
@@ -451,7 +446,7 @@ Game.create(game_number: 44,
 
 game11.update(goals1: 2, goals2: 1)
 ##teste API
-game12.update(goals1: 0, goals2: 0)
+#game12.update(goals1: 0, goals2: 0)
 #game28.update(goals1: 4, goals2: 4)
 
 
@@ -466,7 +461,7 @@ game13 = Game.create(game_number: 13,
 			date: '16/06', 
 			time: '13:00', 
 			group: groupG)
-game14 = Game.create(game_number: 14, 
+Game.create(game_number: 14, 
 			team1: ghana, 
 			team2: usa, 
 			venue: natal, 
@@ -504,14 +499,13 @@ game46 = Game.create(game_number: 46,
 
 ##teste API
 game13.update(goals1: 4, goals2: 0)
-game14.update(goals1: 1, goals2: 2)
 #game46.update(goals1: 1, goals2: 0)
 
 
 
 
 ##### GAMES - GROUP H
-game15 = Game.create(game_number: 15, 
+Game.create(game_number: 15, 
 			team1: belgium, 
 			team2: algeria, 
 			venue: bh, 
@@ -555,30 +549,29 @@ game48 = Game.create(game_number: 48,
 			group: groupH)
 
 ##teste API
-game15.update(goals1: 2, goals2: 1)
-game16.update(goals1: 1, goals2: 1)
+#game16.update(goals1: 2, goals2: 0)
 #game32.update(goals1: 2, goals2: 4)
 #game48.update(goals1: 2, goals2: 2)
 
 
 ##### GAMES - ROUND OF 16
 game49 = Game.create(game_number: 49, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: brazil, 
+			team2: switzerland, 
 			venue: bh, 
 			date: '28/06', 
 			time: '13:00', 
 			group: group_round16)
 Game.create(game_number: 50, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: brazil, 
+			team2: germany, 
 			venue: rio, 
 			date: '28/06', 
 			time: '17:00', 
 			group: group_round16)
 Game.create(game_number: 51, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: mexico, 
+			team2: cameroon, 
 			venue: fortaleza, 
 			date: '29/06', 
 			time: '13:00', 
@@ -591,29 +584,29 @@ Game.create(game_number: 52,
 			time: '17:00', 
 			group: group_round16)
 game53 = Game.create(game_number: 53, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: france, 
+			team2: honduras, 
 			venue: brasilia, 
 			date: '30/06', 
 			time: '13:00', 
 			group: group_round16)
 Game.create(game_number: 54, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: england, 
+			team2: italy, 
 			venue: poa, 
 			date: '30/06', 
 			time: '17:00', 
 			group: group_round16)
 Game.create(game_number: 55, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: spain, 
+			team2: portugal, 
 			venue: sp, 
 			date: '01/07', 
 			time: '13:00', 
 			group: group_round16)
 Game.create(game_number: 56, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: brazil, 
+			team2: spain, 
 			venue: salvador, 
 			date: '01/07', 
 			time: '17:00', 
@@ -628,29 +621,29 @@ Game.create(game_number: 56,
 
 ##### GAMES - QUARTER-FINALS
 Game.create(game_number: 57, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: germany, 
+			team2: brazil, 
 			venue: rio, 
 			date: '04/07', 
 			time: '13:00', 
 			group: group_quarter)
 Game.create(game_number: 58, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: cameroon, 
+			team2: mexico, 
 			venue: fortaleza, 
 			date: '04/07', 
 			time: '17:00', 
 			group: group_quarter)
 Game.create(game_number: 59, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: honduras, 
+			team2: france, 
 			venue: brasilia, 
 			date: '05/07', 
 			time: '13:00', 
 			group: group_quarter)
 Game.create(game_number: 60, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: germany, 
+			team2: mexico, 
 			venue: salvador, 
 			date: '05/07', 
 			time: '17:00', 
@@ -662,15 +655,15 @@ Game.create(game_number: 60,
 
 ##### GAMES - SEMI-FINALS
 Game.create(game_number: 61, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: brazil, 
+			team2: spain, 
 			venue: bh, 
 			date: '08/07', 
 			time: '17:00', 
 			group: group_semi)
 Game.create(game_number: 62, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: portugal, 
+			team2: spain, 
 			venue: sp, 
 			date: '09/07', 
 			time: '17:00', 
@@ -680,8 +673,8 @@ Game.create(game_number: 62,
 
 ##### GAMES - THIRD
 Game.create(game_number: 63, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: france, 
+			team2: brazil, 
 			venue: brasilia, 
 			date: '12/07', 
 			time: '17:00', 
@@ -691,8 +684,8 @@ Game.create(game_number: 63,
 
 ##### GAMES - FINAL
 Game.create(game_number: 64, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: brazil, 
+			team2: germany, 
 			venue: rio, 
 			date: '13/07', 
 			time: '16:00', 
