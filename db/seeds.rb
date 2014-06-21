@@ -176,8 +176,8 @@ class_nigeria.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points:
 ## Grupo G
 class_germany.update(position: 1, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 6, saldo: 4)
 class_portugal.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -4)
-class_ghana.update(position: 2, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 3, saldo: -1)
-class_usa.update(position: 3, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_ghana.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 3, saldo: -1)
+class_usa.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
 
 ## Grupo H
 class_belgium.update(position: 1, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
