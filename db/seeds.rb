@@ -169,9 +169,9 @@ class_honduras.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points
 
 ## Grupo F
 class_argentina.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 3, saldo: 2)
-class_bosnia.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
+class_bosnia.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 1, saldo: -2)
 class_iran.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 0, saldo: -1)
-class_nigeria.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 0, saldo: 0)
+class_nigeria.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 1, saldo: 1)
 
 ## Grupo G
 class_germany.update(position: 1, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 6, saldo: 4)
@@ -455,6 +455,7 @@ game11.update(goals1: 2, goals2: 1)
 ##teste API
 game12.update(goals1: 0, goals2: 0)
 game27.update(goals1: 1, goals2: 0)
+game28.update(goals1: 1, goals2: 0)
 
 
 
