@@ -181,9 +181,9 @@ class_usa.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, 
 
 ## Grupo H
 class_belgium.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 3, saldo: 2)
-class_algeria.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 1, saldo: -1)
+class_algeria.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 5, saldo: 1)
 class_russia.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 1, saldo: -1)
-class_korea.update(position: 2, games: 1, wins: 0, draws: 1, loses: 0, points: 1, goals: 1, saldo: 0)
+class_korea.update(position: 4, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 3, saldo: -2)
 
 
 
@@ -561,7 +561,7 @@ game48 = Game.create(game_number: 48,
 game15.update(goals1: 2, goals2: 1)
 game16.update(goals1: 1, goals2: 1)
 game31.update(goals1: 1, goals2: 0)
-#game48.update(goals1: 2, goals2: 2)
+game32.update(goals1: 2, goals2: 4)
 
 
 ##### GAMES - ROUND OF 16
