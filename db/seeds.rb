@@ -175,9 +175,9 @@ class_nigeria.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points:
 
 ## Grupo G
 class_germany.update(position: 1, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 6, saldo: 4)
-class_portugal.update(position: 4, games: 1, wins: 0, draws: 0, loses: 1, points: 0, goals: 0, saldo: -4)
+class_portugal.update(position: 4, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 2, saldo: -4)
 class_ghana.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 3, saldo: -1)
-class_usa.update(position: 2, games: 1, wins: 1, draws: 0, loses: 0, points: 3, goals: 2, saldo: 1)
+class_usa.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 4, saldo: 1)
 
 ## Grupo H
 class_belgium.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 3, saldo: 2)
@@ -483,7 +483,7 @@ game29 = Game.create(game_number: 29,
 			date: '21/06', 
 			time: '16:00', 
 			group: groupG)
-Game.create(game_number: 30, 
+game30 = Game.create(game_number: 30, 
 			team1: usa, 
 			team2: portugal, 
 			venue: manaus, 
@@ -509,7 +509,7 @@ game46 = Game.create(game_number: 46,
 game13.update(goals1: 4, goals2: 0)
 game14.update(goals1: 1, goals2: 2)
 game29.update(goals1: 2, goals2: 2)
-
+game30.update(goals1: 2, goals2: 2)
 
 
 
