@@ -158,7 +158,7 @@ class_japan.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1
 ## Grupo D
 class_uruguay.update(position: 2, games: 3, wins: 2, draws: 0, loses: 1, points: 6, goals: 4, saldo: 0)
 class_costa.update(position: 1, games: 3, wins: 2, draws: 1, loses: 0, points: 7, goals: 4, saldo: 3)
-class_england.update(position: 4, games: 4, wins: 0, draws: 1, loses: 2, points: 1, goals: 2, saldo: -2)
+class_england.update(position: 4, games: 3, wins: 0, draws: 1, loses: 2, points: 1, goals: 2, saldo: -2)
 class_italy.update(position: 3, games: 3, wins: 1, draws: 0, loses: 2, points: 3, goals: 2, saldo: -1)
 
 ## Grupo E
