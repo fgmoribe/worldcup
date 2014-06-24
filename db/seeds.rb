@@ -156,10 +156,10 @@ class_cote.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3,
 class_japan.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 1, saldo: -1)
 
 ## Grupo D
-class_uruguay.update(position: 3, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 3, saldo: -1)
-class_costa.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 4, saldo: 3)
-class_england.update(position: 4, games: 2, wins: 0, draws: 0, loses: 2, points: 0, goals: 2, saldo: -2)
-class_italy.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 2, saldo: 0)
+class_uruguay.update(position: 2, games: 3, wins: 2, draws: 0, loses: 1, points: 6, goals: 4, saldo: 0)
+class_costa.update(position: 1, games: 3, wins: 2, draws: 1, loses: 0, points: 7, goals: 4, saldo: 3)
+class_england.update(position: 4, games: 4, wins: 0, draws: 1, loses: 2, points: 1, goals: 2, saldo: -2)
+class_italy.update(position: 3, games: 3, wins: 1, draws: 0, loses: 2, points: 3, goals: 2, saldo: -1)
 
 ## Grupo E
 class_switzerland.update(position: 3, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 4, saldo: -2)
@@ -331,14 +331,14 @@ game24 = Game.create(game_number: 24,
 			date: '20/06', 
 			time:'13:00', 
 			group: groupD)
-Game.create(game_number: 39, 
+game39 = Game.create(game_number: 39, 
 			team1: italy, 
 			team2: uruguay, 
 			venue: natal, 
 			date: '24/06', 
 			time:'13:00', 
 			group: groupD)
-Game.create(game_number: 40, 
+game40 = Game.create(game_number: 40, 
 			team1: costa, 
 			team2: england, 
 			venue: bh, 
@@ -351,6 +351,8 @@ game7.update(goals1: 1, goals2: 3)
 game8.update(goals1: 1, goals2: 2)
 game23.update(goals1: 2, goals2: 1)
 game24.update(goals1: 0, goals2: 1)
+game39.update(goals1: 0, goals2: 1)
+game40.update(goals1: 0, goals2: 0)
 
 
 
@@ -570,8 +572,8 @@ game32.update(goals1: 2, goals2: 4)
 
 ##### GAMES - ROUND OF 16
 game49 = Game.create(game_number: 49, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: brazil, 
+			team2: chile, 
 			venue: bh, 
 			date: '28/06', 
 			time: '13:00', 
@@ -584,8 +586,8 @@ Game.create(game_number: 50,
 			time: '17:00', 
 			group: group_round16)
 Game.create(game_number: 51, 
-			team1: tbd, 
-			team2: tbd, 
+			team1: netherlands, 
+			team2: mexico, 
 			venue: fortaleza, 
 			date: '29/06', 
 			time: '13:00', 
