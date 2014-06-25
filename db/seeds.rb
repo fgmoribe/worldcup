@@ -409,8 +409,8 @@ game10.update(goals1: 3, goals2: 0)
 game25.update(goals1: 2, goals2: 5)
 game26.update(goals1: 1, goals2: 2)
 ##teste API
-#game42.update(goals1: 1, goals2: 5)
-#game41.update(goals1: 10, goals2: 4)
+game41.update(goals1: 0, goals2: 3)
+game42.update(goals1: 0, goals2: 0)
 
 
 
