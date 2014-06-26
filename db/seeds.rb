@@ -180,10 +180,10 @@ class_ghana.update(position: 4, games: 3, wins: 0, draws: 1, loses: 2, points: 1
 class_usa.update(position: 2, games: 3, wins: 1, draws: 1, loses: 1, points: 4, goals: 4, saldo: 0)
 
 ## Grupo H
-class_belgium.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 3, saldo: 2)
-class_algeria.update(position: 2, games: 2, wins: 1, draws: 0, loses: 1, points: 3, goals: 5, saldo: 1)
-class_russia.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 1, saldo: -1)
-class_korea.update(position: 4, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 3, saldo: -2)
+class_belgium.update(position: 1, games: 3, wins: 3, draws: 0, loses: 0, points: 9, goals: 4, saldo: 3)
+class_algeria.update(position: 2, games: 3, wins: 1, draws: 1, loses: 1, points: 4, goals: 6, saldo: 1)
+class_russia.update(position: 3, games: 3, wins: 0, draws: 2, loses: 1, points: 2, goals: 2, saldo: -1)
+class_korea.update(position: 4, games: 3, wins: 0, draws: 1, loses: 2, points: 1, goals: 3, saldo: -3)
 
 
 
@@ -572,8 +572,8 @@ game15.update(goals1: 2, goals2: 1)
 game16.update(goals1: 1, goals2: 1)
 game31.update(goals1: 1, goals2: 0)
 game32.update(goals1: 2, goals2: 4)
-#game47.update(goals1: 2, goals2: 4)
-#game48.update(goals1: 2, goals2: 4)
+game47.update(goals1: 0, goals2: 1)
+game48.update(goals1: 1, goals2: 1)
 
 
 ##### GAMES - ROUND OF 16
