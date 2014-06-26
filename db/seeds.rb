@@ -498,7 +498,7 @@ game30 = Game.create(game_number: 30,
 			date: '22/06', 
 			time: '18:00', 
 			group: groupG)
-Game.create(game_number: 45, 
+game45 = Game.create(game_number: 45, 
 			team1: usa, 
 			team2: germany, 
 			venue: recife, 
@@ -518,6 +518,8 @@ game13.update(goals1: 4, goals2: 0)
 game14.update(goals1: 1, goals2: 2)
 game29.update(goals1: 2, goals2: 2)
 game30.update(goals1: 2, goals2: 2)
+#game45.update(goals1: 2, goals2: 4)
+#game46.update(goals1: 2, goals2: 4)
 
 
 
@@ -550,7 +552,7 @@ game32 = Game.create(game_number: 32,
 			date: '22/06', 
 			time: '16:00', 
 			group: groupH)
-Game.create(game_number: 47, 
+game47 = Game.create(game_number: 47, 
 			team1: korea, 
 			team2: belgium, 
 			venue: sp, 
@@ -570,6 +572,8 @@ game15.update(goals1: 2, goals2: 1)
 game16.update(goals1: 1, goals2: 1)
 game31.update(goals1: 1, goals2: 0)
 game32.update(goals1: 2, goals2: 4)
+#game47.update(goals1: 2, goals2: 4)
+#game48.update(goals1: 2, goals2: 4)
 
 
 ##### GAMES - ROUND OF 16
