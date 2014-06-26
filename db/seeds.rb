@@ -174,10 +174,10 @@ class_iran.update(position: 4, games: 3, wins: 0, draws: 1, loses: 2, points: 1,
 class_nigeria.update(position: 2, games: 3, wins: 1, draws: 1, loses: 1, points: 4, goals: 3, saldo: 0)
 
 ## Grupo G
-class_germany.update(position: 1, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 6, saldo: 4)
-class_portugal.update(position: 4, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 2, saldo: -4)
-class_ghana.update(position: 3, games: 2, wins: 0, draws: 1, loses: 1, points: 1, goals: 3, saldo: -1)
-class_usa.update(position: 2, games: 2, wins: 1, draws: 1, loses: 0, points: 4, goals: 4, saldo: 1)
+class_germany.update(position: 1, games: 3, wins: 2, draws: 1, loses: 0, points: 7, goals: 7, saldo: 5)
+class_portugal.update(position: 3, games: 3, wins: 1, draws: 1, loses: 1, points: 4, goals: 4, saldo: -3)
+class_ghana.update(position: 4, games: 3, wins: 0, draws: 1, loses: 2, points: 1, goals: 4, saldo: -2)
+class_usa.update(position: 2, games: 3, wins: 1, draws: 1, loses: 1, points: 4, goals: 4, saldo: 0)
 
 ## Grupo H
 class_belgium.update(position: 1, games: 2, wins: 2, draws: 0, loses: 0, points: 6, goals: 3, saldo: 2)
@@ -518,8 +518,8 @@ game13.update(goals1: 4, goals2: 0)
 game14.update(goals1: 1, goals2: 2)
 game29.update(goals1: 2, goals2: 2)
 game30.update(goals1: 2, goals2: 2)
-#game45.update(goals1: 2, goals2: 4)
-#game46.update(goals1: 2, goals2: 4)
+game45.update(goals1: 0, goals2: 1)
+game46.update(goals1: 2, goals2: 1)
 
 
 
