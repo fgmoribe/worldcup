@@ -584,7 +584,7 @@ game49 = Game.create(game_number: 49,
 			date: '28/06', 
 			time: '13:00', 
 			group: group_round16)
-Game.create(game_number: 50, 
+game50 = Game.create(game_number: 50, 
 			team1: colombia, 
 			team2: uruguay, 
 			venue: rio, 
@@ -638,13 +638,13 @@ Game.create(game_number: 56,
 
 ##teste API
 game49.update(goals1: 1, goals2: 1, penalty1: 3, penalty2:2)
-#game53.update(goals1: 2, goals2: 2, penalty1: 3, penalty2:4)
+game50.update(goals1: 2, goals2: 0)
 
 
 ##### GAMES - QUARTER-FINALS
 Game.create(game_number: 57, 
 			team1: brazil, 
-			team2: tbd, 
+			team2: colombia, 
 			venue: rio, 
 			date: '04/07', 
 			time: '13:00', 
