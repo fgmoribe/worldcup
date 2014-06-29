@@ -640,7 +640,7 @@ Game.create(game_number: 56,
 game49.update(goals1: 1, goals2: 1, penalty1: 3, penalty2:2)
 game50.update(goals1: 2, goals2: 0)
 game51.update(goals1: 2, goals2: 1)
-game49.update(goals1: 1, goals2: 1, penalty1: 5, penalty2: 3)
+game52.update(goals1: 1, goals2: 1, penalty1: 5, penalty2: 3)
 
 ##### GAMES - QUARTER-FINALS
 Game.create(game_number: 57, 
