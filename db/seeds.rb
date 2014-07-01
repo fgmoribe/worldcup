@@ -643,6 +643,7 @@ game51.update(goals1: 2, goals2: 1)
 game52.update(goals1: 1, goals2: 1, penalty1: 5, penalty2: 3)
 game53.update(goals1: 2, goals2: 0)
 game54.update(goals1: 2, goals2: 1)
+game55.update(goals1: 1, goals2: 0)
 
 ##### GAMES - QUARTER-FINALS
 Game.create(game_number: 57, 
@@ -667,7 +668,7 @@ Game.create(game_number: 59,
 			time: '13:00', 
 			group: group_quarter)
 Game.create(game_number: 60, 
-			team1: tbd, 
+			team1: argentina, 
 			team2: tbd, 
 			venue: brasilia, 
 			date: '05/07', 
