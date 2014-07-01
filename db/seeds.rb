@@ -626,7 +626,7 @@ game55 = Game.create(game_number: 55,
 			date: '01/07', 
 			time: '13:00', 
 			group: group_round16)
-Game.create(game_number: 56, 
+game56 = Game.create(game_number: 56, 
 			team1: belgium, 
 			team2: usa, 
 			venue: salvador, 
@@ -644,6 +644,7 @@ game52.update(goals1: 1, goals2: 1, penalty1: 5, penalty2: 3)
 game53.update(goals1: 2, goals2: 0)
 game54.update(goals1: 2, goals2: 1)
 game55.update(goals1: 1, goals2: 0)
+game56.update(goals1: 2, goals2: 1)
 
 ##### GAMES - QUARTER-FINALS
 Game.create(game_number: 57, 
@@ -669,7 +670,7 @@ Game.create(game_number: 59,
 			group: group_quarter)
 Game.create(game_number: 60, 
 			team1: argentina, 
-			team2: tbd, 
+			team2: belgium, 
 			venue: brasilia, 
 			date: '05/07', 
 			time: '17:00', 
