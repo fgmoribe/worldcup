@@ -619,7 +619,7 @@ game54 = Game.create(game_number: 54,
 			date: '30/06', 
 			time: '17:00', 
 			group: group_round16)
-Game.create(game_number: 55, 
+game55 = Game.create(game_number: 55, 
 			team1: argentina, 
 			team2: switzerland, 
 			venue: sp, 
