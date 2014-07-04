@@ -647,7 +647,7 @@ game55.update(goals1: 1, goals2: 0)
 game56.update(goals1: 2, goals2: 1)
 
 ##### GAMES - QUARTER-FINALS
-Game.create(game_number: 57, 
+game57 = Game.create(game_number: 57, 
 			team1: brazil, 
 			team2: colombia, 
 			venue: fortaleza, 
@@ -677,13 +677,14 @@ Game.create(game_number: 60,
 			group: group_quarter)
 
 
+game57.update(goals1: 2, goals2: 1)
 game58.update(goals1: 0, goals2: 1)
 
 
 
 ##### GAMES - SEMI-FINALS
 Game.create(game_number: 61, 
-			team1: tbd, 
+			team1: brazil, 
 			team2: germany, 
 			venue: bh, 
 			date: '08/07', 
