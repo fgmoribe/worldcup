@@ -661,7 +661,7 @@ game58 = Game.create(game_number: 58,
 			date: '04/07', 
 			time: '13:00', 
 			group: group_quarter)
-Game.create(game_number: 59, 
+game59 = Game.create(game_number: 59, 
 			team1: netherlands, 
 			team2: costa, 
 			venue: salvador, 
@@ -679,7 +679,7 @@ game60 = Game.create(game_number: 60,
 
 game57.update(goals1: 2, goals2: 1)
 game58.update(goals1: 0, goals2: 1)
-
+game59.update(goals1: 0, goals2: 0, penalty1: 4, penalty2: 3)
 game60.update(goals1: 1, goals2: 0)
 
 ##### GAMES - SEMI-FINALS
@@ -691,7 +691,7 @@ Game.create(game_number: 61,
 			time: '17:00', 
 			group: group_semi)
 Game.create(game_number: 62, 
-			team1: tbd, 
+			team1: netherlands, 
 			team2: argentina, 
 			venue: sp, 
 			date: '09/07', 
