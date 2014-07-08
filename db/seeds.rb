@@ -683,7 +683,7 @@ game59.update(goals1: 0, goals2: 0, penalty1: 4, penalty2: 3)
 game60.update(goals1: 1, goals2: 0)
 
 ##### GAMES - SEMI-FINALS
-Game.create(game_number: 61, 
+game61 = Game.create(game_number: 61, 
 			team1: brazil, 
 			team2: germany, 
 			venue: bh, 
@@ -698,11 +698,13 @@ Game.create(game_number: 62,
 			time: '17:00', 
 			group: group_semi)
 
+game61.update(goals1: 1, goals2: 7)
+
 
 
 ##### GAMES - THIRD
 Game.create(game_number: 63, 
-			team1: tbd, 
+			team1: brazil, 
 			team2: tbd, 
 			venue: brasilia, 
 			date: '12/07', 
@@ -713,7 +715,7 @@ Game.create(game_number: 63,
 
 ##### GAMES - FINAL
 Game.create(game_number: 64, 
-			team1: tbd, 
+			team1: germany, 
 			team2: tbd, 
 			venue: rio, 
 			date: '13/07', 
