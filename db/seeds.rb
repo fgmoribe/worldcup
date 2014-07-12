@@ -704,7 +704,7 @@ game62.update(goals1: 0, goals2: 0, penalty1: 4, penalty2: 2)
 
 
 ##### GAMES - THIRD
-Game.create(game_number: 63, 
+game63 = Game.create(game_number: 63, 
 			team1: brazil, 
 			team2: netherlands, 
 			venue: brasilia, 
@@ -712,6 +712,7 @@ Game.create(game_number: 63,
 			time: '17:00', 
 			group: group_third)
 
+game63.update(goals1: 0, goals2: 3)
 
 
 ##### GAMES - FINAL
