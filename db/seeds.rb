@@ -716,7 +716,7 @@ game63.update(goals1: 0, goals2: 3)
 
 
 ##### GAMES - FINAL
-Game.create(game_number: 64, 
+game64 = Game.create(game_number: 64, 
 			team1: germany, 
 			team2: argentina, 
 			venue: rio, 
@@ -724,7 +724,7 @@ Game.create(game_number: 64,
 			time: '16:00', 
 			group: group_final)
 
-
+game63.update(goals1: 1, goals2: 0)
 
 
 
