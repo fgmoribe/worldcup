@@ -724,7 +724,7 @@ game64 = Game.create(game_number: 64,
 			time: '16:00', 
 			group: group_final)
 
-game63.update(goals1: 1, goals2: 0)
+game64.update(goals1: 1, goals2: 0)
 
 
 
