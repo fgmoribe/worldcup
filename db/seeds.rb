@@ -699,7 +699,7 @@ game62 = Game.create(game_number: 62,
 			group: group_semi)
 
 game61.update(goals1: 1, goals2: 7)
-game62.update(goals1: 0, goals2: 0, penalty1: 4, penalty2: 2)
+game62.update(goals1: 0, goals2: 0, penalty1: 2, penalty2: 4)
 
 
 
